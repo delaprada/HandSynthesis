@@ -107,6 +107,18 @@ Use `view_samples.ipynb` to visualize image and annotation:
 
 <br>
 
+## Citation
+If you find our paper useful, please consider citing our paper.
+
+```
+@article{zhao2025analyzing,
+  title={Analyzing the Synthetic-to-Real Domain Gap in 3D Hand Pose Estimation},
+  author={Zhao, Zhuoran and Yang, Linlin and Sun, Pengzhan and Hui, Pan and Yao, Angela},
+  journal={arXiv preprint arXiv:2503.19307},
+  year={2025}
+}
+```
+
 ## Acknowledgement
 
 Special thanks to these great projects: [NIMBLE](https://github.com/reyuwei/NIMBLE_model?tab=readme-ov-file), [blender-cli-rendering](https://github.com/yuki-koyama/blender-cli-rendering), [bpycv](https://github.com/DIYer22/bpycv).
