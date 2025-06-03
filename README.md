@@ -107,6 +107,10 @@ Use `view_samples.ipynb` to visualize image and annotation:
 
 <br>
 
+### Synthetic Data
+
+We have uploaded the synthetic hand data to [Hugging Face](https://huggingface.co/datasets/Alicezrzhao/HandSynthesis). To use syn_frei, syn_dex, and syn_occ, you need to first download their annotations from [FreiHAND](https://lmb.informatik.uni-freiburg.de/resources/datasets/FreihandDataset.en.html), [DexYCB](https://dex-ycb.github.io/), and [preprocessed DexYCB](https://github.com/namepllet/HandOccNet), and [Obman](https://www.di.ens.fr/willow/research/obman/data/). The dataloaders can be found in the `synthetic_data` folder.
+
 ## Citation
 If you find our paper useful, please consider citing our paper.
 
@@ -121,4 +125,4 @@ If you find our paper useful, please consider citing our paper.
 
 ## Acknowledgement
 
-Special thanks to these great projects: [NIMBLE](https://github.com/reyuwei/NIMBLE_model?tab=readme-ov-file), [blender-cli-rendering](https://github.com/yuki-koyama/blender-cli-rendering), [bpycv](https://github.com/DIYer22/bpycv).
+Special thanks to these great projects: [NIMBLE](https://github.com/reyuwei/NIMBLE_model?tab=readme-ov-file), [blender-cli-rendering](https://github.com/yuki-koyama/blender-cli-rendering), [bpycv](https://github.com/DIYer22/bpycv), [S2HAND](https://github.com/TerenceCYJ/S2HAND).
