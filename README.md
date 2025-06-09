@@ -2,8 +2,7 @@
 
 The official code of "Analyzing the Synthetic-to-Real Domain Gap in 3D Hand Pose Estimation. CVPR 2025."
 
-Recent synthetic 3D human datasets for the face, body, and hands have pushed the limits on photorealism. Face recognition and body pose estimation have achieved state-of-the-art performance using synthetic training data alone, but for the hand, there is still a large synthetic-to-real gap. This paper presents the first systematic study of the synthetic-to-real gap of 3D hand pose estimation. We analyze the gap and identify key components such as the forearm, image frequency statistics, hand pose, and object occlusions. To facilitate our analysis, we propose a data synthesis pipeline to synthesize high-quality data. We demonstrate that synthetic hand data can achieve the same level of accuracy as real data when integrating our identified components, paving the path to use synthetic data alone for hand pose estimation.
-
+[Paper Link](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhao_Analyzing_the_Synthetic-to-Real_Domain_Gap_in_3D_Hand_Pose_Estimation_CVPR_2025_paper.pdf)
 
 ## Installation
 
@@ -56,7 +55,7 @@ Here are steps to install blender:
 
 ### Download HDRI scenes
 
-We have uploaded our HDRI scenes for rendering in [HDRI](https://hkustgz-my.sharepoint.com/:u:/g/personal/zzhao074_connect_hkust-gz_edu_cn/ERJY9YB9P95ArV4DFVM5jz8ByEkDL-7ddAtqYwaOYKyQ0A?e=dyDZUc). Download the images and set the `hdri_bg_path` in `config_syn_data.json`.
+We have uploaded our HDRI scenes for rendering in [Hugging Face](https://huggingface.co/datasets/Alicezrzhao/HandSynthesis). Download the images and set the `hdri_bg_path` in `config_syn_data.json`.
 
 <br>
 
@@ -107,21 +106,27 @@ Use `view_samples.ipynb` to visualize image and annotation:
 
 <br>
 
-### Synthetic Data
+## Synthetic Data
 
 We have uploaded the synthetic hand data to [Hugging Face](https://huggingface.co/datasets/Alicezrzhao/HandSynthesis). To use syn_frei, syn_dex, and syn_occ, you need to first download their annotations from [FreiHAND](https://lmb.informatik.uni-freiburg.de/resources/datasets/FreihandDataset.en.html), [DexYCB](https://dex-ycb.github.io/), and [preprocessed DexYCB](https://github.com/namepllet/HandOccNet), and [Obman](https://www.di.ens.fr/willow/research/obman/data/). The dataloaders can be found in the `synthetic_data` folder.
+
+<br>
 
 ## Citation
 If you find our paper useful, please consider citing our paper.
 
 ```
-@article{zhao2025analyzing,
-  title={Analyzing the Synthetic-to-Real Domain Gap in 3D Hand Pose Estimation},
-  author={Zhao, Zhuoran and Yang, Linlin and Sun, Pengzhan and Hui, Pan and Yao, Angela},
-  journal={arXiv preprint arXiv:2503.19307},
-  year={2025}
+@InProceedings{Zhao_2025_CVPR,
+    author = {Zhao, Zhuoran and Yang, Linlin and Sun, Pengzhan and Hui, Pan and Yao, Angela},
+    title = {Analyzing the Synthetic-to-Real Domain Gap in 3D Hand Pose Estimation},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month = {June},
+    year = {2025},
+    pages = {12255-12265}
 }
 ```
+
+<br>
 
 ## Acknowledgement
 
