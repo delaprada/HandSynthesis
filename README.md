@@ -4,6 +4,8 @@ The official code of "Analyzing the Synthetic-to-Real Domain Gap in 3D Hand Pose
 
 [Paper Link](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhao_Analyzing_the_Synthetic-to-Real_Domain_Gap_in_3D_Hand_Pose_Estimation_CVPR_2025_paper.pdf)
 
+<br>
+
 ## Installation
 
 ### Install bpy
