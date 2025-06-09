@@ -55,7 +55,7 @@ Here are steps to install blender:
 
 ### Download HDRI scenes
 
-We have uploaded our HDRI scenes for rendering in [Hugging Face](https://huggingface.co/datasets/Alicezrzhao/HandSynthesis). Download the images and set the `hdri_bg_path` in `config_syn_data.json`.
+We have uploaded our HDRI scenes for rendering in [Hugging Face](https://huggingface.co/datasets/Alicezrzhao/HandSynthesis/tree/main). Download the images and set the `hdri_bg_path` in `config_syn_data.json`.
 
 <br>
 
@@ -108,7 +108,7 @@ Use `view_samples.ipynb` to visualize image and annotation:
 
 ## Synthetic Data
 
-We have uploaded the synthetic hand data to [Hugging Face](https://huggingface.co/datasets/Alicezrzhao/HandSynthesis). To use syn_frei, syn_dex, and syn_occ, you need to first download their annotations from [FreiHAND](https://lmb.informatik.uni-freiburg.de/resources/datasets/FreihandDataset.en.html), [DexYCB](https://dex-ycb.github.io/), and [preprocessed DexYCB](https://github.com/namepllet/HandOccNet), and [Obman](https://www.di.ens.fr/willow/research/obman/data/). The dataloaders can be found in the `synthetic_data` folder.
+We have uploaded the synthetic hand data to [Hugging Face](https://huggingface.co/datasets/Alicezrzhao/HandSynthesis/tree/main). To use syn_frei, syn_dex, and syn_occ, you need to first download their annotations from [FreiHAND](https://lmb.informatik.uni-freiburg.de/resources/datasets/FreihandDataset.en.html), [DexYCB](https://dex-ycb.github.io/), and [preprocessed DexYCB](https://github.com/namepllet/HandOccNet), and [Obman](https://www.di.ens.fr/willow/research/obman/data/). The dataloaders can be found in the `synthetic_data` folder.
 
 <br>
 
