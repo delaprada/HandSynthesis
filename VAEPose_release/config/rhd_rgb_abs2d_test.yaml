@@ -1,0 +1,8 @@
+root: './RHD'
+models: [rgb, abs_2d]
+models_pth: "output/vae_rhd-rgb-a2d 2019-03-07_13_28_06/m-581-rgb-a2d.pth"
+bz: 128
+works: 16
+z_dim: 32
+n_joints: 21
+hand_side_invariance: False

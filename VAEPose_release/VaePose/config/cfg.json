@@ -1,0 +1,54 @@
+{
+  "base": {
+      "exp_name": "dexycb_h2onet_sf",
+      "model_dir": "experiment/single_frame_dexycb/stage_1"
+  },
+  "data": {
+      "name": "DEX_YCB_SF",
+      "transforms_type": "h2onet",
+      "eval_type": [
+          "test"
+      ],
+      "input_img_shape": [
+          256,
+          256
+      ]
+  },
+  "model": {
+      "name": "h2onet_sf",
+      "pretrain": true
+  },
+  "loss": {
+      "name": "h2onet_sf",
+      "w_gr": false
+  },
+  "metric": {
+      "major_metric": "score"
+  },
+  "train": {
+      "num_epochs": 38,
+      "batch_size": 256,
+      "num_workers": 20
+  },
+  "test": {
+      "batch_size": 128,
+      "num_workers": 20
+  },
+  "summary": {
+      "save_summary_steps": 50,
+      "save_latest_freq": 1,
+      "save_best_after": 0
+  },
+  "optimizer": {
+      "name": "adam",
+      "lr": 1e-3
+  },
+  "scheduler": {
+      "name": "step",
+      "milestones": [
+          30
+      ],
+      "gamma": 0.1
+  },
+  "pretrain_model": null
+}

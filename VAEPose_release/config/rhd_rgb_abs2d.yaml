@@ -1,0 +1,16 @@
+epoch: 100
+lr: 1e-4
+bz: 128
+works: 16
+z_dim: 21
+dim_joint: 3
+both_hands: True
+crop_size: [256, 256]
+seed_val: 233
+interval: 100
+output_folder: "./output/vae_rhd_rgb_abs2d"
+models:
+  - rgb
+  - abs_2d
+training_order:
+  -
