@@ -114,6 +114,19 @@ We have uploaded the synthetic hand data to [Hugging Face](https://huggingface.c
 
 <br>
 
+## VAE Pose
+
+We have updated the VAE in `VAEPose_release`. To use it, please put the parent root of `MANO_RIGHT.pkl` in the `mano_root` of `VAEPose_release/VaePose/common/utils/mano.py`.
+
+```
+# train VAE
+cd VAEPose_release
+
+python Train_dex_3d_mask_input.py
+```
+
+<br>
+
 ## Citation
 If you find our paper useful, please consider citing our paper.
 
@@ -132,4 +145,4 @@ If you find our paper useful, please consider citing our paper.
 
 ## Acknowledgement
 
-Special thanks to these great projects: [NIMBLE](https://github.com/reyuwei/NIMBLE_model?tab=readme-ov-file), [blender-cli-rendering](https://github.com/yuki-koyama/blender-cli-rendering), [bpycv](https://github.com/DIYer22/bpycv), [S2HAND](https://github.com/TerenceCYJ/S2HAND).
+Special thanks to these great projects: [NIMBLE](https://github.com/reyuwei/NIMBLE_model?tab=readme-ov-file), [blender-cli-rendering](https://github.com/yuki-koyama/blender-cli-rendering), [bpycv](https://github.com/DIYer22/bpycv), [S2HAND](https://github.com/TerenceCYJ/S2HAND), [VAE-Pose](https://github.com/yunfanLu/VAE-Pose).
