@@ -118,6 +118,8 @@ We have uploaded the synthetic hand data to [Hugging Face](https://huggingface.c
 
 We have updated the VAE in `VAEPose_release`. To use it, please put the parent root of `MANO_RIGHT.pkl` in the `mano_root` of `VAEPose_release/VaePose/common/utils/mano.py`.
 
+To train a VAE with DEX-YCB dataset, please download it from [DexYCB](https://dex-ycb.github.io/) and configure the `self.root_dir` in `/mnt/sdc/zhuoran/proj/HandSynthesis/VAEPose_release/VaePose/DEX_YCB_SF.py`.
+
 ```
 # train VAE
 cd VAEPose_release
